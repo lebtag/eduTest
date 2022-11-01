@@ -1,0 +1,24 @@
+{
+  "name": "edutest",
+  "version": "1.0.0",
+  "description": "Learning to write tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r dotenv/config ./index.js",
+    "start": "node -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebtag/eduTest.git"
+  },
+  "author": "SLE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebtag/eduTest/issues"
+  },
+  "homepage": "https://github.com/lebtag/eduTest#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
